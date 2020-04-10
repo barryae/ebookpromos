@@ -4,4 +4,4 @@ Site for ebookpromos.com
 
 ## Hours
 
-- 4/10 - 1.0
+- 4/10 - 2.0
