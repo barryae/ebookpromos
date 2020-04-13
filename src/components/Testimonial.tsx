@@ -10,14 +10,13 @@ export default function Testimonial(props: { testimonials: any[] }) {
                     book={testimonial.book}
                     url={testimonial.url}
                     description={testimonial.quote}
-                    projectNumber={i}
+                    cardNumber={i}
                     key={i} />
             )
         });
 
     return (
         <div>
-            <div className="middle-spacer"></div>
             <div>
                 <div className="projectsContainer content">
                     {testimonialCards}

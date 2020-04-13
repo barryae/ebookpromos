@@ -2,6 +2,10 @@ body{
   font-family: 'Roboto'
 }
 
+a{
+  text-decoration: none;
+}
+
 .left-lines {
     position: absolute;
     left: 3vw;
@@ -48,6 +52,11 @@ body{
 .title{
   font-family: 'Merriweather';
   font-size: 8vw;
+}
+
+.logo{
+  width: 64vw;
+  
 }
 
 .bio{
@@ -119,10 +128,10 @@ font-size:4vmin;
 }
 
 .projectsContainer {
-  padding-bottom: 5rem;
   margin: auto;
   display: grid;
   grid-gap: 1rem;
+  color: aliceblue;
  grid-template-areas:
  "project0" 
   "project1" 
@@ -141,25 +150,45 @@ font-size:4vmin;
   grid-area: project2;
 }
 
+.testimonial-profile{
+  float: left;
+}
+
 .card{
-  margin: 2rem 2rem;
+   background-color: rgb(2, 2, 66);
+  border-radius: .5rem;
+  padding:1rem;
+  display: grid;
+  grid-gap: 1rem;
+ grid-template-areas:
+ "testimonial-profile card-text"
 }
 
 .card-text{
-  font-size: 2.75vmax;
-  margin: 1vw 0vw;
+  font-size: 2rem;
+  margin: auto;
+  float: right;
 }
 
 .card-header{
   font-family: 'Merriweather';
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 1.7rem;
   margin-bottom: 1vw;
+  text-align: center;
+}
+
+.book-name{
+  font-style: italic;
+  font-size: 1rem;
 }
 
 .card-img{ 
-  width: 100%; 
-  object-fit: contain;
+  display: block;
+  margin:auto;
+  border-radius: 20vh;
+  padding: .4rem;
+  height:20vh;
 }
 
 .card-link, .card-link:visited {
@@ -172,66 +201,28 @@ font-size:4vmin;
   cursor: pointer;
 }
 
-/* @media only screen and (min-width: 720px) {
-
-.card-img{
-  width: 100%;
-    object-fit: contain;
-}
-
-.card{
-  margin: 0;
-}
-
-.bio-content{
-  margin: auto;
-    width:80vw;
-}
-
-.content{
-  margin: auto;
-  width:80vw;
-}
-
-.contact{
-  font-family: 'Merriweather';
-  font-weight: 400;
-  margin: auto;
-  margin-left: 0;
-  padding:0;
-  font-size: 3vw;
-  grid-area: contact;
-}
-
-.icon-img{
-  margin:1rem 1rem;
-  width: 4vw; 
-  object-fit: contain;
-}
-
-.sectionHeader{
-  font-family: 'Merriweather';
+.call-to-action-container{
   padding: 1rem;
-  margin-bottom: 1rem;
-  font-weight: 500;
-  font-size: 3vw;
-  text-shadow: 0;
 }
 
+.call-to-action-button{
+display: block;
+margin: auto;
+padding: .5rem;
+font-family: 'Merriweather';
+font-size: 2.5vw;
+text-align: center;
+border-radius: .5rem;
+background-color: rgba(255, 136, 0, 0.849);
+border:solid black;
+color: aliceblue;
+}
 
-.projectsContainer{
-    
-  display: grid;
-  grid-gap: 1rem;
+@media only screen and (max-width: 720px) {
+.card{
   grid-template-areas:
-  "project0 project1 project2"
- ;
+ "testimonial-profile"
+ "card-text"
 }
 
-.main {
-  max-width: 100%;
-  width: 100%;
-  box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
-  }
-
-} */
+}
