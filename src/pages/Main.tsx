@@ -14,7 +14,17 @@ export default function Main() {
                     Sharing your work with readers around the world shouldn’t be complicated.
                 </p>
             </div>
+            <div className="content">
+                <p className="bio-text">
+                    For $300, our service will create two different versions of a 15-second promotional video based on your eBook. You can pick your favorite to use in a promotional campaign, or utilize both for A/B testing with your audience.
+                </p>
+            </div>
             <iframe className="video" src="https://www.youtube.com/embed/hMpMIidtUy8?controls=0" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
+            <div className="content">
+                <p className="bio-text">
+                    According to Facebook, shorter videos lead to better conversions. They recommend making your video length 15 seconds or less so that people are more likely to watch until the end. Videos attract a larger audience and widen the reach.
+                </p>
+            </div>
             <CallToAction text="Get your video now!" />
             <div className="content">
                 <p className="bio-text">
