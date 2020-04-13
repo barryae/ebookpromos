@@ -15,9 +15,20 @@ export default function Main() {
                 </p>
             </div>
             <iframe className="video" src="https://www.youtube.com/embed/hMpMIidtUy8?controls=0" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
-            <CallToAction text="CLICK HERE TO GET YOUR FREE QUOTE" />
+            <CallToAction text="Get your video now!" />
+            <div className="content">
+                <p className="bio-text">
+                    Check out the stats on the eBook Promo we did for Jody:
+                </p>
+            </div>
+            <img className='stats' src={require("../images/stats.png")} />
+            <div className="content">
+                <p className="bio-text">
+                    Testimonies:
+                </p>
+            </div>
             <Testimonial testimonials={testimonialItems} />
-            <CallToAction text="GET STARTED . . . CLICK HERE" />
+            <CallToAction text="Get your video promo here!" />
         </div>
     )
 }

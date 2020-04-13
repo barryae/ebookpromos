@@ -60,6 +60,11 @@ a{
   
 }
 
+.stats{
+  width: 75vw;
+  border: 5px solid black;
+}
+
 .bio{
   height: 100vh;
   margin-bottom: 1rem;

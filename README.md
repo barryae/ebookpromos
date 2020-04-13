@@ -14,3 +14,7 @@ Site for ebookpromos.com
 - Compress logo image
 - get info page function (woofoo? nodemailer?)
 - get checkout page functional (shopify? paypal?)
+- tagline should mention videos and what Ryan will do in a concise way
+- Make clear is a video
+- Give run down of what is needed from the process
+-Host video on vimeo
