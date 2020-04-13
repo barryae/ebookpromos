@@ -14,8 +14,10 @@ export default function Main() {
                     Sharing your work with readers around the world shouldn’t be complicated.
                 </p>
             </div>
-            <CallToAction text="CLICK HERE TO GET YOUR FREE QUOTE!" />
+            <iframe className="video" src="https://www.youtube.com/embed/hMpMIidtUy8?controls=0" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
+            <CallToAction text="CLICK HERE TO GET YOUR FREE QUOTE" />
             <Testimonial testimonials={testimonialItems} />
+            <CallToAction text="GET STARTED . . . CLICK HERE" />
         </div>
     )
 }

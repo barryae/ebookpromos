@@ -37,8 +37,9 @@ a{
 
 .main {
   margin:auto;
-  width: 64vw;
+  width: 75vw;
   max-width: 100%;
+  font-family: 'Merriweather';
 }
 
 .top-spacer{
@@ -55,7 +56,7 @@ a{
 }
 
 .logo{
-  width: 64vw;
+  width: 75vw;
   
 }
 
@@ -216,6 +217,11 @@ border-radius: .5rem;
 background-color: rgba(255, 136, 0, 0.849);
 border:solid black;
 color: aliceblue;
+}
+
+.video{
+  width: 75vw;
+  height: 40vw;
 }
 
 @media only screen and (max-width: 720px) {
