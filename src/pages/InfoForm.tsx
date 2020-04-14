@@ -34,11 +34,9 @@ export default function InfoForm(this: any) {
         }).then(res => { setToCheckout(true) })
     }
 
-    // action = "https://submit-form.com/V3O5LOXxFB8gGpNGF0fRk" target = "_self"
-
     return (
         <div className='main'>
-            {toCheckout ? <Redirect to="/" /> : null}
+            {toCheckout ? <Redirect to="/checkout" /> : null}
             <h2>Tell Us About Your eBook</h2>
             <form onSubmit={handleSubmit}>
                 <p>What is the URL of your ebook on Amazon (or other online marketplaces)?</p>
@@ -49,7 +47,6 @@ export default function InfoForm(this: any) {
                 <textarea value={story} name="story" onChange={handleChange}></textarea>
                 <button type="submit">Submit</button>
             </form>
-
         </div >
     )
 }
