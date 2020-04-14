@@ -19,7 +19,6 @@ export default function Checkout() {
                     shippingPreference="NO_SHIPPING"
                     catchError={"Sorry, something went wrong. Please try again."}
                     onSuccess={(details: any, data: any) => {
-                        console.log("Transaction completed by " + details.payer.name.given_name)
                         confirmation();
                     }}
                 />
