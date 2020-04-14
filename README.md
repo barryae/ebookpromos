@@ -17,7 +17,7 @@ Site for ebookpromos.com
 - tagline should mention videos and what Ryan will do in a concise way
 - Make clear is a video
 - Give rundown of what is needed from the process of making promo
-- Host video on vimeo
+- image upload?
 
 - add in sales email copy throughout page (including price and length)
 - take screenshots of home page (send to Ryan)
