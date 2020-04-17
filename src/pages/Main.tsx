@@ -8,9 +8,11 @@ let testimonialItems = [{ name: "Michael Alvear", book: "Revenge of the Hatless"
 export default function Main() {
     return (
         <div className="main">
-            <img className="logo" src={require("../images/logo 03.jpg")} alt="" />
+            <div className="logo-container">
+                <img className="logo" src={require("../images/logo 03.png")} alt="" />
+            </div>
             <div className="content">
-                <p className="bio-text">
+                <p className="bio-text bold">
                     Your eBook may be great. Your eBook may be exactly what your audience is looking for. But what if they can’t find it?
                 </p>
                 <p className="bio-text">
@@ -23,39 +25,97 @@ export default function Main() {
                     But your eBook deserves to be read. And those of us here at eBook Promos are going to help.
                 </p>
             </div>
+            <CallToAction text="Get your video promo here!" />
             <div className="content">
-                <p className="bio-text">
+                <p className="bio-text bold">
                     Visual storytelling has become a crucial part of our fast-paced digital world.
                 </p>
                 <p className="bio-text">
-                    According to Facebook, shorter videos lead to better conversions. They recommend making your video length 15 seconds or less so that people are more likely to watch until the end.
+                    According to Facebook, shorter videos lead to better conversions. They recommend making your video length <strong>15 seconds</strong> or less so that people are more likely to watch until the end.
                 </p>
                 <p className="bio-text">
-                    But in reality, many viewers will click away after the first one and a half seconds of your video.
+                    But in reality, many viewers will click away after the first <strong>one and a half seconds</strong> of your video.
                 </p>
                 <p className="bio-text">
-                    This means that the very first image has to be eye-catching, jaw-dropping, and outstanding. If you want people to read your eBook, you need to engage them immediately or risk losing the most valuable commodity of all: attention.
+                    This means that the very first image has to be eye-catching, jaw-dropping, and outstanding. If you want people to read your eBook, you need to engage them immediately or risk losing the most valuable commodity of all: <strong>attention</strong>.
                 </p>
                 <p className="bio-text">
                     We at eBook Promos pride ourselves on selecting the finest quality images to use in your videos. We use exciting visuals to showcase the mood and story of your eBook for future readers.
                 </p>
-                <p className="bio-text">
+                <p className="bio-text bold">
                     Just take a look at this sample video that we made:
                 </p>
             </div>
             <iframe className="video" src="https://player.vimeo.com/video/407318655" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
             <CallToAction text="Get your video now!" />
             <div className="content">
+                <p className="bio-text bold">
+                    This eBook is part of the horror genre, but eBook Promos are appropriate for any type of work:
+                </p>
+                <ul>
+                    <li>Drama</li>
+                    <li>Self-help</li>
+                    <li>Thriller</li>
+                    <li>Sci-Fi</li>
+                    <li>Humor</li>
+                    <li>Spiritual</li>
+                    <li>Educational</li>
+                </ul>
+                <p className="bio-text bold">
+                    And so many more!
+                </p>
                 <p className="bio-text">
-                    Check out the stats on the eBook Promo we did for Jody:
+                    You wrote a great story. Now let us help you tell people where they can read it.
+                </p>
+                <p className="bio-text">
+                    Our videos have been proven to work. Take a look at this screenshot from a successful use of one of our eBook Promos:
                 </p>
             </div>
             <img className='stats' src={require("../images/stats.png")} />
             <div className="content">
+                <p className="bio-text bold">
+                    As you can see, the video received over <strong>40,000 views</strong> and <strong>4,000 website clicks</strong> in a short period of time.
+                </p>
                 <p className="bio-text">
-                    Testimonies:
+                    An eBook Promo sets you apart. An eBook Promo is a brilliant way to <strong>bring your story to life and provide a taste of what readers will experience.</strong> An eBook Promo is a simple way to show the mood of your story to future readers.
+                </p>
+                <p className="bio-text bold">
+                    What your eBook Promo will include:
+                </p>
+                <ul>
+                    <li>High-quality images</li>
+                    <li>Great music</li>
+                    <li>Engaging description of your eBook</li>
+                </ul>
+                <p className="bio-text">
+                    We take these elements and create <strong>unique and high-quality 15-second eBook Promos</strong>. Whether used to promote on Facebook, or as a calling card on your personal website, our videos will make a positive impact on your promotional efforts.
+                </p>
+                <p className="bio-text bold">
+                    What you'll need to provide:
+                </p>
+                <ul>
+                    <li>High-quality image of your eBook’s cover</li>
+                    <li>A one-sentence description of the story</li>
+                    <li>Five or six words describing the mood of your eBook</li>
+                    <li>A link to where your eBook is for sale (on Amazon or elsewhere)</li>
+                </ul>
+                <p className="bio-text bold">
+                    That's it.
+                </p>
+                <p className="bio-text">
+                    Then sit back, wait 24 hours, and a <strong>15-second eBook promo will be delivered to your inbox.</strong>
+                </p>
+                <p className="bio-text">
+                    All of our videos are delivered as full 720p MP4’s, as recommended by Facebook for optimal performance.
+                </p>
+                <p className="bio-text">
+                    We guarantee a speedy delivery of our eBook Promos. If your video isn’t in your inbox within a day of placing the order, <strong>you will be refunded 110% of your payment</strong>.
+                </p>
+                <p className="bio-text bold">
+                    Bring your story to life with eBook Promos.
                 </p>
             </div>
+            <CallToAction text="Get your video promo here!" />
             <Testimonial testimonials={testimonialItems} />
             <CallToAction text="Get your video promo here!" />
         </div>

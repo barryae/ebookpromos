@@ -56,8 +56,14 @@ a{
 }
 
 .logo{
-  width: 75vw;
-  
+  width: 40vw;
+  margin: auto;
+  display: block;
+}
+
+.logo-container{
+  background-color: rgb(1, 1, 97);
+  padding: 1rem;
 }
 
 .stats{
@@ -72,9 +78,11 @@ a{
 
 .bio-text{
 grid-area: bio-text;
-font-size:4vmin;
+font-size:1rem;
 }
-
+.bold{
+  font-weight: bold;
+}
 .content{
   width: 100%;
 }
