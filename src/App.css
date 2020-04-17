@@ -5,7 +5,9 @@ body{
 a{
   text-decoration: none;
 }
-
+.primary-background{
+  background-color: rgba(0, 0, 92, 0.932);
+}
 .left-lines {
     position: absolute;
     left: 3vw;
@@ -237,6 +239,14 @@ color: aliceblue;
   height: 40vw;
 }
 
+.page-header{
+  color: white;
+  padding: 1rem;
+}
+
+.info-submit{
+  display: block;
+}
 @media only screen and (max-width: 720px) {
 .card{
   grid-template-areas:

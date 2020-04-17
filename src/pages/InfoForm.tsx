@@ -37,7 +37,7 @@ export default function InfoForm(this: any) {
     return (
         <div className='main'>
             {toCheckout ? <Redirect to="/checkout" /> : null}
-            <h2>Tell Us About Your eBook</h2>
+            <h2 className="page-header primary-background">Tell Us About Your eBook</h2>
             <form onSubmit={handleSubmit}>
                 <p>What is the URL of your ebook on Amazon (or other online marketplaces)?</p>
                 <textarea value={ebookUrl} name="ebookUrl" onChange={handleChange}></textarea>
@@ -45,7 +45,8 @@ export default function InfoForm(this: any) {
                 <textarea value={tone} name="tone" onChange={handleChange}></textarea>
                 <p>Please describe the story of your book in one sentence.</p>
                 <textarea value={story} name="story" onChange={handleChange}></textarea>
-                <button type="submit">Submit</button>
+                <p></p>
+                <button className="info-submit" type="submit">Submit</button>
             </form>
         </div >
     )
