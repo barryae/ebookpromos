@@ -47,14 +47,14 @@ export default function Checkout() {
             {isPaid ? <div><p>Thanks so much!</p></div> :
                 <div>
                     <h2 className="page-header primary-background">Checkout</h2>
-                    <div className='content'>
-                        <p>
-                            <strong>eBook Promos offers two different packages. Our two video package offers massive savings and value.
-                    </strong>
-                        </p>
-                    </div>
-                    {productChosen ? <p>{productChosen + " videos chosen"}</p> :
+                    {productChosen ? <p><strong>{productChosen + " videos chosen"}</strong></p> :
                         <div>
+                            <div className='content'>
+                                <p>
+                                    <strong>eBook Promos offers two different packages. Our two video package offers massive savings and value.
+                    </strong>
+                                </p>
+                            </div>
                             <div className="option-button">
                                 <div className="two-video-option" onClick={chooseProduct}>Two videos for $299</div>
                             </div>
