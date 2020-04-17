@@ -247,6 +247,36 @@ color: aliceblue;
 .info-submit{
   display: block;
 }
+
+.option-button{
+  padding: 1rem;
+}
+
+.one-video-option{
+  display: block;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: rgb(202, 153, 118);
+  margin: auto;
+  color: aliceblue;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.two-video-option{
+  display: block;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: chocolate;
+  margin: auto;
+  color: aliceblue;
+  border-radius: .5rem;
+  cursor: pointer;
+}
 @media only screen and (max-width: 720px) {
 .card{
   grid-template-areas:
