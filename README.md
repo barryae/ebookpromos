@@ -13,11 +13,6 @@ Site for ebookpromos.com
 ## Issues
 
 - Compress logo image (use png instead)
-- get info page function (woofoo? nodemailer?)
-- get checkout page functional (shopify? paypal?)
-- tagline should mention videos and what Ryan will do in a concise way
-- Make clear is a video
-- Give rundown of what is needed from the process of making promo
 - image upload?
 
 - add in sales email copy throughout page (including price and length)

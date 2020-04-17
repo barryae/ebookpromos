@@ -11,20 +11,39 @@ export default function Main() {
             <img className="logo" src={require("../images/logo 03.jpg")} alt="" />
             <div className="content">
                 <p className="bio-text">
-                    Sharing your work with readers around the world shouldn’t be complicated.
+                    Your eBook may be great. Your eBook may be exactly what your audience is looking for. But what if they can’t find it?
+                </p>
+                <p className="bio-text">
+                    More awareness about your eBook means more people who get the chance to read your eBook.
+                </p>
+                <p className="bio-text">
+                    We live in an era of choice. Too much choice, according to some. It’s harder than ever to cut through the noise and showcase your work. Great writers like you go unnoticed every day.
+                </p>
+                <p className="bio-text">
+                    But your eBook deserves to be read. And those of us here at eBook Promos are going to help.
                 </p>
             </div>
             <div className="content">
                 <p className="bio-text">
-                    For $300, our service will create two different versions of a 15-second promotional video based on your eBook. You can pick your favorite to use in a promotional campaign, or utilize both for A/B testing with your audience.
+                    Visual storytelling has become a crucial part of our fast-paced digital world.
+                </p>
+                <p className="bio-text">
+                    According to Facebook, shorter videos lead to better conversions. They recommend making your video length 15 seconds or less so that people are more likely to watch until the end.
+                </p>
+                <p className="bio-text">
+                    But in reality, many viewers will click away after the first one and a half seconds of your video.
+                </p>
+                <p className="bio-text">
+                    This means that the very first image has to be eye-catching, jaw-dropping, and outstanding. If you want people to read your eBook, you need to engage them immediately or risk losing the most valuable commodity of all: attention.
+                </p>
+                <p className="bio-text">
+                    We at eBook Promos pride ourselves on selecting the finest quality images to use in your videos. We use exciting visuals to showcase the mood and story of your eBook for future readers.
+                </p>
+                <p className="bio-text">
+                    Just take a look at this sample video that we made:
                 </p>
             </div>
             <iframe className="video" src="https://player.vimeo.com/video/407318655" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
-            <div className="content">
-                <p className="bio-text">
-                    According to Facebook, shorter videos lead to better conversions. They recommend making your video length 15 seconds or less so that people are more likely to watch until the end. Videos attract a larger audience and widen the reach.
-                </p>
-            </div>
             <CallToAction text="Get your video now!" />
             <div className="content">
                 <p className="bio-text">
