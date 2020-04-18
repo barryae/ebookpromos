@@ -7,7 +7,7 @@ export default function Checkout() {
     const [isPaid, setIsPayed] = useState(false)
     const [productChosen, setProduct] = useState(0)
 
-    function confirmation() {
+    function paymentConfirmation() {
         setIsPayed(true)
     }
 
@@ -27,7 +27,7 @@ export default function Checkout() {
                 shippingPreference="NO_SHIPPING"
                 catchError={"Sorry, something went wrong. Please try again."}
                 onSuccess={(details: any, data: any) => {
-                    confirmation();
+                    paymentConfirmation();
                 }}
             />
         } else if (productChosen === 1) {
@@ -36,7 +36,7 @@ export default function Checkout() {
                 shippingPreference="NO_SHIPPING"
                 catchError={"Sorry, something went wrong. Please try again."}
                 onSuccess={(details: any, data: any) => {
-                    confirmation();
+                    paymentConfirmation();
                 }}
             />
         }
@@ -44,7 +44,7 @@ export default function Checkout() {
 
     return (
         <div className="main">
-            {isPaid ? <div><p>Thanks so much!</p></div> :
+            {isPaid ? <h2 className="page-header primary-background">Thank you and we look forward to making your video(s)</h2> :
                 <div>
                     <h2 className="page-header primary-background">Checkout</h2>
                     {productChosen ? <p><strong>{productChosen + " videos chosen"}</strong></p> :
