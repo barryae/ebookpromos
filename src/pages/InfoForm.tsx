@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Redirect } from 'react-router-dom';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 
 
@@ -35,9 +35,9 @@ export default function InfoForm(this: any) {
     }
 
     return (
-        <div className='main'>
+        <div className='main info-form'>
             {toCheckout ? <Redirect to="/checkout" /> : null}
-            <h2 className="page-header primary-background">Tell Us About Your eBook</h2>
+            <h2 className="emphasized header">Tell Us About Your eBook</h2>
             <form onSubmit={handleSubmit}>
                 <p>What is the URL of your ebook on Amazon (or other online marketplaces)?</p>
                 <textarea value={ebookUrl} name="ebookUrl" onChange={handleChange}></textarea>

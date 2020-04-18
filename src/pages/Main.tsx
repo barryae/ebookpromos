@@ -12,8 +12,14 @@ export default function Main() {
                 <img className="logo" src={require("../images/logo 03.png")} alt="" />
             </div>
             <div className="content">
-                <p className="bio-text bold">
-                    Your eBook may be great. Your eBook may be exactly what your audience is looking for. But what if they can’t find it?
+                <p className="bio-text bold emphasized">
+                    Your eBook may be great.
+                </p>
+                <p className="bio-text bold emphasized">
+                    Your eBook may be exactly what your audience is looking for.
+                </p>
+                <p className="bio-text bold emphasized">
+                    . . . but what if they can’t find it?
                 </p>
                 <p className="bio-text">
                     More awareness about your eBook means more people who get the chance to read your eBook.
@@ -27,7 +33,7 @@ export default function Main() {
             </div>
             <CallToAction text="Get your video promo here!" />
             <div className="content">
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     Visual storytelling has become a crucial part of our fast-paced digital world.
                 </p>
                 <p className="bio-text">
@@ -42,14 +48,14 @@ export default function Main() {
                 <p className="bio-text">
                     We at eBook Promos pride ourselves on selecting the finest quality images to use in your videos. We use exciting visuals to showcase the mood and story of your eBook for future readers.
                 </p>
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     Just take a look at this sample video that we made:
                 </p>
             </div>
-            <iframe className="video" src="https://player.vimeo.com/video/407318655" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
+            <iframe className="video" title="sample" src="https://player.vimeo.com/video/407318655" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
             <CallToAction text="Get your video now!" />
             <div className="content">
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     This eBook is part of the horror genre, but eBook Promos are appropriate for any type of work:
                 </p>
                 <ul>
@@ -61,7 +67,7 @@ export default function Main() {
                     <li>Spiritual</li>
                     <li>Educational</li>
                 </ul>
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     And so many more!
                 </p>
                 <p className="bio-text">
@@ -71,15 +77,15 @@ export default function Main() {
                     Our videos have been proven to work. Take a look at this screenshot from a successful use of one of our eBook Promos:
                 </p>
             </div>
-            <img className='stats' src={require("../images/stats.png")} />
+            <img className='stats' alt="Stats Example" src={require("../images/stats.png")} />
             <div className="content">
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     As you can see, the video received over <strong>40,000 views</strong> and <strong>4,000 website clicks</strong> in a short period of time.
                 </p>
                 <p className="bio-text">
                     An eBook Promo sets you apart. An eBook Promo is a brilliant way to <strong>bring your story to life and provide a taste of what readers will experience.</strong> An eBook Promo is a simple way to show the mood of your story to future readers.
                 </p>
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     What your eBook Promo will include:
                 </p>
                 <ul>
@@ -90,7 +96,7 @@ export default function Main() {
                 <p className="bio-text">
                     We take these elements and create <strong>unique and high-quality 15-second eBook Promos</strong>. Whether used to promote on Facebook, or as a calling card on your personal website, our videos will make a positive impact on your promotional efforts.
                 </p>
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     What you'll need to provide:
                 </p>
                 <ul>
@@ -99,7 +105,7 @@ export default function Main() {
                     <li>Five or six words describing the mood of your eBook</li>
                     <li>A link to where your eBook is for sale (on Amazon or elsewhere)</li>
                 </ul>
-                <p className="bio-text bold">
+                <p className="bio-text bold emphasized">
                     That's it.
                 </p>
                 <p className="bio-text">
@@ -111,7 +117,7 @@ export default function Main() {
                 <p className="bio-text">
                     We guarantee a speedy delivery of our eBook Promos. If your video isn’t in your inbox within a day of placing the order, <strong>you will be refunded 110% of your payment</strong>.
                 </p>
-                <p className="bio-text bold">
+                <p className="bio-text bold ">
                     Bring your story to life with eBook Promos.
                 </p>
             </div>

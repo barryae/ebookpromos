@@ -1,5 +1,7 @@
 body{
-  font-family: 'Roboto'
+  font-family: 'Open Sans';
+background-color: rgb(255, 255, 255);
+color: aliceblue;
 }
 
 a{
@@ -41,7 +43,10 @@ a{
   margin:auto;
   width: 75vw;
   max-width: 100%;
-  font-family: 'Merriweather';
+  box-shadow: 5px 0px 30px 1px rgba(5, 0, 36, 0.322);
+  padding: 1.5rem 2rem;
+  background-color: rgba(0, 97, 182, 0.849);
+  font-size: 3vh;
 }
 
 .top-spacer{
@@ -53,7 +58,6 @@ a{
 }
 
 .title{
-  font-family: 'Merriweather';
   font-size: 8vw;
 }
 
@@ -61,16 +65,18 @@ a{
   width: 40vw;
   margin: auto;
   display: block;
+  padding-bottom: 1rem;
 }
 
 .logo-container{
-  background-color: rgb(1, 1, 97);
+  /* background-color: rgb(1, 1, 97); */
   padding: 1rem;
+  border-bottom:solid aliceblue;
 }
 
 .stats{
   width: 75vw;
-  border: 5px solid black;
+  border: 5px solid rgb(102, 231, 130);
 }
 
 .bio{
@@ -79,9 +85,11 @@ a{
 }
 
 .bio-text{
-grid-area: bio-text;
-font-size:1rem;
+font-style: italic;
+padding: 0vh 5vh;
+
 }
+
 .bold{
   font-weight: bold;
 }
@@ -116,7 +124,7 @@ font-size:1rem;
   grid-area: center;
   border-radius: 9vh 9vh 0vh 0vh;
   width: 16vw; 
-  border: 5px solid black;
+  border: 5px rgb(102, 231, 130);
   margin: 4vw auto;
 }
 
@@ -171,7 +179,7 @@ font-size:1rem;
 }
 
 .card{
-   background-color: rgb(2, 2, 66);
+   background-color: rgba(98, 85, 172, 0.397);
   border-radius: .5rem;
   padding:1rem;
   display: grid;
@@ -181,9 +189,12 @@ font-size:1rem;
 }
 
 .card-text{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: auto;
   float: right;
+  padding: 1rem;
+  font-style: italic;
+  font-family: 'Merriweather';
 }
 
 .card-header{
@@ -194,6 +205,9 @@ font-size:1rem;
   text-align: center;
 }
 
+.header{
+  padding:1rem;
+}
 .book-name{
   font-style: italic;
   font-size: 1rem;
@@ -221,22 +235,30 @@ font-size:1rem;
   padding: 1rem;
 }
 
+.info-form{
+  height: 100vh;
+}
+
+.checkout-container{
+  height: 100vh;
+}
+
 .call-to-action-button{
 display: block;
 margin: auto;
 padding: .5rem;
-font-family: 'Merriweather';
+font-weight: bold;
 font-size: 2.5vw;
 text-align: center;
 border-radius: .5rem;
-background-color: rgba(255, 136, 0, 0.849);
-border:solid black;
+border:solid aliceblue;
 color: aliceblue;
 }
 
 .video{
   width: 75vw;
   height: 40vw;
+  border: 5px solid rgb(102, 231, 130);;
 }
 
 .page-header{
@@ -251,6 +273,9 @@ color: aliceblue;
 .option-button{
   padding: 1rem;
 }
+.second-color{
+background-color: rgb(70, 119, 255);
+}
 
 .one-video-option{
   display: block;
@@ -258,12 +283,12 @@ color: aliceblue;
   font-weight: bold;
   font-size: 1rem;
   padding: 1rem;
-  background-color: rgb(202, 153, 118);
   margin: auto;
-  color: aliceblue;
+  border:solid aliceblue;
   border-radius: .5rem;
   cursor: pointer;
 }
+
 
 .two-video-option{
   display: block;
@@ -271,12 +296,26 @@ color: aliceblue;
   font-weight: bold;
   font-size: 1.5rem;
   padding: 1rem;
-  background-color: chocolate;
   margin: auto;
-  color: aliceblue;
+
+  border:solid aliceblue;
   border-radius: .5rem;
   cursor: pointer;
 }
+
+.emphasized{
+  font-size: 3vh;
+  font-style: normal;
+  color: rgb(155, 247, 175);
+  /* color: rgb(0, 2, 131); */
+  font-family: 'Merriweather';
+  padding: 1rem 10vh;
+}
+
+strong{
+  color: rgb(245, 220, 0);
+}
+
 @media only screen and (max-width: 720px) {
 .card{
   grid-template-areas:

@@ -43,10 +43,10 @@ export default function Checkout() {
     }
 
     return (
-        <div className="main">
+        <div className="main checkout-container">
             {isPaid ? <h2 className="page-header primary-background">Thank you and we look forward to making your video(s)</h2> :
                 <div>
-                    <h2 className="page-header primary-background">Checkout</h2>
+                    <h2 className="emphasized header">Checkout</h2>
                     {productChosen ? <p><strong>{productChosen + " videos chosen"}</strong></p> :
                         <div>
                             <div className='content'>
@@ -56,10 +56,10 @@ export default function Checkout() {
                                 </p>
                             </div>
                             <div className="option-button">
-                                <div className="two-video-option" onClick={chooseProduct}>Two videos for $299</div>
+                                <div className="two-video-option second-color" onClick={chooseProduct}>Two videos for $299</div>
                             </div>
                             <div className="option-button">
-                                <div className="one-video-option" onClick={chooseProduct}>One video for $199</div>
+                                <div className="one-video-option second-color" onClick={chooseProduct}>One video for $199</div>
                             </div>
                         </div>
                     }
