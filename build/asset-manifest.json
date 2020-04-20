@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f08bd18a.chunk.css",
+    "main.js": "/static/js/main.e0c8ede5.chunk.js",
+    "main.js.map": "/static/js/main.e0c8ede5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7972a6c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7972a6c0.js.map",
+    "static/js/2.de47f9f5.chunk.js": "/static/js/2.de47f9f5.chunk.js",
+    "static/js/2.de47f9f5.chunk.js.map": "/static/js/2.de47f9f5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ecb55aa557866029a868fb843f31a37d.js": "/precache-manifest.ecb55aa557866029a868fb843f31a37d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f08bd18a.chunk.css.map": "/static/css/main.f08bd18a.chunk.css.map",
+    "static/js/2.de47f9f5.chunk.js.LICENSE.txt": "/static/js/2.de47f9f5.chunk.js.LICENSE.txt",
+    "static/media/accentImage1.jpg": "/static/media/accentImage1.6a9ab7cf.jpg",
+    "static/media/accentImage2.jpg": "/static/media/accentImage2.a497e7d2.jpg",
+    "static/media/logo 03.png": "/static/media/logo 03.42bb38db.png",
+    "static/media/project0.png": "/static/media/project0.7eb595a0.png",
+    "static/media/stats.png": "/static/media/stats.717b8285.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7972a6c0.js",
+    "static/js/2.de47f9f5.chunk.js",
+    "static/css/main.f08bd18a.chunk.css",
+    "static/js/main.e0c8ede5.chunk.js"
+  ]
+}

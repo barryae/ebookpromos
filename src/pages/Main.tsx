@@ -22,6 +22,7 @@ export default function Main() {
                 <p className="bio-text bold emphasized">
                     . . . but what if they can’t find it?
                 </p>
+                <img className="accent-image" src={require("../images/accentImage1.jpg")} alt="eReader Image" />
                 <p className="bio-text">
                     More awareness about your eBook means more people who get the chance to read your eBook.
                 </p>
@@ -34,6 +35,7 @@ export default function Main() {
             </div>
             <CallToAction text="Get your video promo here!" />
             <div className="content">
+                <img className="accent-image" src={require("../images/accentImage2.jpg")} alt="eReader Image" />
                 <p className="bio-text bold emphasized">
                     Visual storytelling has become a crucial part of our fast-paced digital world.
                 </p>

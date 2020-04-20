@@ -37,7 +37,7 @@ export default function InfoForm(this: any) {
     return (
         <div className='main info-form'>
             {toCheckout ? <Redirect to="/checkout" /> : null}
-            <h2 className="emphasized header">Tell Us About Your eBook</h2>
+            <h2 className="header">Tell us about your eBook</h2>
             <form onSubmit={handleSubmit}>
                 <p>What is the URL of your ebook on Amazon (or other online marketplaces)?</p>
                 <textarea value={ebookUrl} name="ebookUrl" onChange={handleChange}></textarea>

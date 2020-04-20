@@ -7,36 +7,9 @@ color: aliceblue;
 a{
   text-decoration: none;
 }
+
 .primary-background{
   background-color: rgba(0, 0, 92, 0.932);
-}
-.left-lines {
-    position: absolute;
-    left: 3vw;
-    top: 66vh;
-    z-index: -1;
-}
-
-.right-lines {
-  position: absolute;
-    left: 85vw;
-    top: 240vh;
-    z-index: -1;
-}
-
-.path {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 1000;
-  animation: dash 18s linear alternate infinite;
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 822;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
 }
 
 .main {
@@ -47,6 +20,14 @@ a{
   padding: 1.5rem 2rem;
   background-color: rgba(0, 97, 182, 0.849);
   font-size: 3vh;
+}
+
+.accent-image{
+  border-radius: 0vw;
+  float: left;
+  width: 75vw;
+  border: 5px solid rgb(69, 212, 255);
+  margin-bottom: 1rem;
 }
 
 .top-spacer{
@@ -76,7 +57,7 @@ a{
 
 .stats{
   width: 75vw;
-  border: 5px solid rgb(102, 231, 130);
+  border: 5px solid rgb(69, 212, 255);
 }
 
 .bio{
@@ -86,8 +67,7 @@ a{
 
 .bio-text{
 font-style: italic;
-padding: 0vh 5vh;
-
+padding: 0rem 5vh;
 }
 
 .bold{
@@ -124,7 +104,7 @@ padding: 0vh 5vh;
   grid-area: center;
   border-radius: 9vh 9vh 0vh 0vh;
   width: 16vw; 
-  border: 5px rgb(102, 231, 130);
+  border: 5px solid rgb(69, 212, 255);
   margin: 4vw auto;
 }
 
@@ -207,6 +187,7 @@ padding: 0vh 5vh;
 
 .header{
   padding:1rem;
+  background-color: rgba(240, 248, 255, 0.295);
 }
 .book-name{
   font-style: italic;
@@ -258,7 +239,7 @@ color: aliceblue;
 .video{
   width: 75vw;
   height: 40vw;
-  border: 5px solid rgb(102, 231, 130);;
+  border: 5px solid rgb(69, 212, 255);
 }
 
 .page-header{
@@ -306,14 +287,14 @@ background-color: rgb(70, 119, 255);
 .emphasized{
   font-size: 3vh;
   font-style: normal;
-  color: rgb(155, 247, 175);
+  color: rgb(2, 0, 95);
   /* color: rgb(0, 2, 131); */
   font-family: 'Merriweather';
   padding: 1rem 10vh;
 }
 
 strong{
-  color: rgb(245, 220, 0);
+  color: rgb(0, 245, 245);
 }
 
 @media only screen and (max-width: 720px) {

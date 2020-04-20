@@ -1,6 +1,6 @@
 {
-  "homepage": "https://barryervin.com",
-  "name": "portfolio",
+  "name": "ebook-promos",
+  "homepage": "https://ebookpromos.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
