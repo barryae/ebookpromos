@@ -237,6 +237,11 @@ padding: 0rem 5vh;
   padding: 1rem;
 }
 
+.call-to-action-button:hover{
+box-shadow: 0px 0px 5px 5px aliceblue;
+}
+
+
 .info-form{
   height: 100vh;
 }
@@ -246,6 +251,8 @@ padding: 0rem 5vh;
 }
 
 .call-to-action-button{
+background-color: rgb(255, 24, 24);
+box-shadow: 0px 0px 5px 1px aliceblue;
 display: block;
 margin: auto;
 padding: .5rem;
@@ -274,9 +281,6 @@ color: aliceblue;
 
 .option-button{
   padding: 1rem;
-}
-.second-color{
-background-color: rgb(70, 119, 255);
 }
 
 .one-video-option{
@@ -314,7 +318,8 @@ background-color: rgb(70, 119, 255);
 }
 
 strong{
-  color: rgb(252, 53, 53);
+  color: rgb(255, 41, 41);
+  text-shadow: 0px 0px 10px aliceblue;
 }
 
 .container{

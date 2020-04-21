@@ -54,7 +54,7 @@ export default function Checkout() {
                 {isPaid ? <div className="header">Thank you and we look forward to making your video(s)! You will receive an email confirmation shortly.</div> :
                     <div>
                         <div className="header">Checkout</div>
-                        {productChosen ? <p><strong>{"You have selected the " + productChosen + " videos package. Please select your preferred PayPal method below to complete checkout."}</strong></p> :
+                        {productChosen ? <p>{"You have selected the " + productChosen + " videos package. Please select your preferred PayPal method below to complete checkout."}</p> :
                             <div>
                                 <div className='content'>
                                     <p>
