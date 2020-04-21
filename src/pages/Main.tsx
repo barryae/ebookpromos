@@ -1,14 +1,15 @@
 import * as React from "react";
 import Testimonial from "../components/Testimonial"
 import CallToAction from "../components/CallToAction"
-import AccentImage from "../components/AccentImage"
+
 
 
 let testimonialItems = [{ name: "Michael Alvear", book: "Revenge of the Hatless", url: "https://www.amazon.com/Revenge-Hatless-MAGA-Meets-Karma/dp/1795202858/ref=sr_1_1?dchild=1&keywords=revenge+of+the+hatless&qid=1586538158&sr=8-1", quote: 'eBook Promos produces videos that cut through the clutter to deliver winning messages and stellar sales.' }]
 
 export default function Main() {
     return (
-        <div>
+        <div className="container">
+            <img className="paypal-badge" src={require("../images/paypal badge.jpg")} alt="Paypal Badge" />
             <div className="main">
                 <div className="logo-container">
                     <img className="logo" src={require("../images/logo 03.png")} alt="" />
@@ -104,7 +105,6 @@ export default function Main() {
                         What you'll need to provide:
                 </p>
                     <ul>
-                        <li>High-quality image of your eBook’s cover</li>
                         <li>A one-sentence description of the story</li>
                         <li>Three words describing the mood of your eBook</li>
                         <li>A link to where your eBook is for sale (on Amazon or elsewhere)</li>
@@ -131,8 +131,8 @@ export default function Main() {
             </div>
             <footer>
                 <div>Copyright 2020 eBook Promos</div>
-                <div><a href={require("../images/Terms of Use.pdf")}>Terms of Use</a></div>
-                <div><a href={require("../images/Privacy Policy.pdf")}>Privacy Policy</a></div>
+                <div><a href={require("../images/Terms of Use.pdf")} target="_blank">Terms of Use</a></div>
+                <div><a href={require("../images/Privacy Policy.pdf")} target="_blank">Privacy Policy</a></div>
             </footer>
         </div>
     )

@@ -308,15 +308,30 @@ background-color: rgb(70, 119, 255);
 .emphasized{
   font-size: 3vh;
   font-style: normal;
-  color: rgb(255, 70, 70);
-  text-shadow: 0px 0px 5px rgb(48, 48, 48);
-  /* color: rgb(0, 2, 131); */
+  color: rgb(0, 2, 131);
   font-family: 'Merriweather';
   padding: 1rem 10vh;
 }
 
 strong{
-  color: rgb(0, 245, 245);
+  color: rgb(252, 53, 53);
+}
+
+.container{
+  align-items: flex-start;
+}
+
+.paypal-badge{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 115px;
+  margin-top: 10px;
+  margin-right: 20px;
+  float: right;
+  border:solid rgb(85, 85, 85);
 }
 
 footer{
