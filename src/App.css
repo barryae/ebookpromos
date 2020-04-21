@@ -242,10 +242,6 @@ box-shadow: 0px 0px 5px 5px aliceblue;
 }
 
 
-.info-form{
-  height: 100vh;
-}
-
 .checkout-container{
   height: 100vh;
 }
@@ -352,6 +348,23 @@ footer{
   grid-template-areas:
  "testimonial-profile"
  "card-text"
+}
+
+.emphasized{
+  padding: 0vw 10vw;
+}
+
+.bio-text{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.call-to-action-button{
+  font-size: large;
+}
+
+.main .info-form{
+  height:100%;
 }
 
 }
