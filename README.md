@@ -2,10 +2,9 @@
 
 Site for <https://ebookpromos.com>
 
-## Hours
+## Hours Worked
 
 - 4/10 - 2.0
-
 - 4/11 : 9:30 - 10:30, 12:30 - 1, 1:15 - 1:45 --> 2.0
 - 4/13 : 9:00 - 11, 1:30 - 3:30, 3:40 - 4:40 --> 5.0
 - 4/14 : 10:00 - 1:15 --> 3
@@ -17,6 +16,12 @@ Site for <https://ebookpromos.com>
 
 ## Issues
 
-- Add paypal emblem to top right
 - Make info and checkout pages scroll to top on load
-- Figure out why refresh doesn't work
+- Style
+
+## Tech Used
+
+- React
+- TypesScript
+- React Paypal Button V2
+- Formspark.io
