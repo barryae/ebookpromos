@@ -1,6 +1,6 @@
 # ebookpromos
 
-Site for ebookpromos.com
+Site for <https://ebookpromos.com>
 
 ## Hours
 
@@ -13,12 +13,10 @@ Site for ebookpromos.com
 - 4/18 : 9:00 - 9:30, 1:00-2:00 --> 1
 - 4/19 : 10:30 - 11:30 --> 1
 - 4/20 : 9:30 - 11:30 --> 2
+- 4/21 : 10:00 - 11:30 --> 1.5
 
 ## Issues
 
-- image upload functionality using dropbox?
-- Style info page, set up
-- style paypal, make two products
-- add paypal emblem to top right
-- Polish
-- Deploy
+- Add paypal emblem to top right
+- Make info and checkout pages scroll to top on load
+- Figure out why refresh doesn't work

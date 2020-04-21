@@ -17,16 +17,35 @@ a{
   width: 75vw;
   max-width: 100%;
   box-shadow: 5px 0px 30px 1px rgba(5, 0, 36, 0.322);
-  padding: 1.5rem 2rem;
+  padding: 0rem 2rem 0rem 2rem;
   background-color: rgba(0, 97, 182, 0.849);
   font-size: 3vh;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+textarea{
+  padding-bottom: 1rem;
+}
+
+.prompt{
+  padding-top: 1rem;
+}
+
+button{
+  background-color: rgba(0, 97, 182, 0.849);
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Open Sans";
 }
 
 .accent-image{
   border-radius: 0vw;
   float: left;
   width: 75vw;
-  border: 5px solid rgb(69, 212, 255);
+  border: 5px solid white;
   margin-bottom: 1rem;
 }
 
@@ -57,7 +76,7 @@ a{
 
 .stats{
   width: 75vw;
-  border: 5px solid rgb(69, 212, 255);
+  border: 5px solid white;
 }
 
 .bio{
@@ -104,7 +123,7 @@ padding: 0rem 5vh;
   grid-area: center;
   border-radius: 9vh 9vh 0vh 0vh;
   width: 16vw; 
-  border: 5px solid rgb(69, 212, 255);
+  border: 5px solid white;
   margin: 4vw auto;
 }
 
@@ -186,7 +205,9 @@ padding: 0rem 5vh;
 }
 
 .header{
-  padding:1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  padding:1rem 1rem;
   background-color: rgba(240, 248, 255, 0.295);
 }
 .book-name{
@@ -239,7 +260,7 @@ color: aliceblue;
 .video{
   width: 75vw;
   height: 40vw;
-  border: 5px solid rgb(69, 212, 255);
+  border: 5px solid white;
 }
 
 .page-header{
@@ -287,7 +308,8 @@ background-color: rgb(70, 119, 255);
 .emphasized{
   font-size: 3vh;
   font-style: normal;
-  color: rgb(2, 0, 95);
+  color: rgb(255, 70, 70);
+  text-shadow: 0px 0px 5px rgb(48, 48, 48);
   /* color: rgb(0, 2, 131); */
   font-family: 'Merriweather';
   padding: 1rem 10vh;
@@ -295,6 +317,14 @@ background-color: rgb(70, 119, 255);
 
 strong{
   color: rgb(0, 245, 245);
+}
+
+footer{
+  font-size: .75rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  color: rgb(0, 81, 255);
 }
 
 @media only screen and (max-width: 720px) {
