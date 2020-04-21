@@ -67,8 +67,8 @@ export default function InfoForm(this: any) {
             </div >
             <footer>
                 <div>Copyright 2020 eBook Promos</div>
-                <div><a href={require("../images/Terms of Use.pdf")} target="_blank">Terms of Use</a></div>
-                <div><a href={require("../images/Privacy Policy.pdf")} target="_blank">Privacy Policy</a></div>
+                <div><a href={require("../images/Terms of Use.pdf")} rel="noopener noreferrer" target="_blank">Terms of Use</a></div>
+                <div><a href={require("../images/Privacy Policy.pdf")} rel="noopener noreferrer" target="_blank">Privacy Policy</a></div>
             </footer>
         </div>
     )

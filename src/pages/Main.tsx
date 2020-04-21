@@ -12,7 +12,7 @@ export default function Main() {
             <img className="paypal-badge" src={require("../images/paypal badge.jpg")} alt="Paypal Badge" />
             <div className="main">
                 <div className="logo-container">
-                    <img className="logo" src={require("../images/logo 03.png")} alt="" />
+                    <img className="logo" src={require("../images/logo 03.png")} alt="logo" />
                 </div>
                 <div className="content">
                     <p className="bio-text bold emphasized">
@@ -24,7 +24,7 @@ export default function Main() {
                     <p className="bio-text bold emphasized">
                         . . . but what if they can’t find it?
                 </p>
-                    <img className="accent-image" src={require("../images/accentImage1.jpg")} alt="eReader Image" />
+                    <img className="accent-image" src={require("../images/accentImage1.jpg")} alt="eReader" />
                     <p className="bio-text">
                         More awareness about your eBook means more people who get the chance to read your eBook.
                 </p>
@@ -37,7 +37,7 @@ export default function Main() {
                 </div>
                 <CallToAction text="Get your video promo here!" />
                 <div className="content">
-                    <img className="accent-image" src={require("../images/accentImage2.jpg")} alt="eReader Image" />
+                    <img className="accent-image" src={require("../images/accentImage2.jpg")} alt="eReader" />
                     <p className="bio-text bold emphasized">
                         Visual storytelling has become a crucial part of our fast-paced digital world.
                 </p>
@@ -57,7 +57,7 @@ export default function Main() {
                         Just take a look at this sample video that we made:
                 </p>
                 </div>
-                <iframe className="video" title="sample" src="https://player.vimeo.com/video/407318655" frameBorder="0" allow="accelerometer; autoplay; gyroscope;" allowFullScreen={true}></iframe>
+                <iframe className="video" src="https://player.vimeo.com/video/407318655" title="eBook Promos Sample"></iframe>
                 <CallToAction text="Get your video now!" />
                 <div className="content">
                     <p className="bio-text bold emphasized">
@@ -131,8 +131,8 @@ export default function Main() {
             </div>
             <footer>
                 <div>Copyright 2020 eBook Promos</div>
-                <div><a href={require("../images/Terms of Use.pdf")} target="_blank">Terms of Use</a></div>
-                <div><a href={require("../images/Privacy Policy.pdf")} target="_blank">Privacy Policy</a></div>
+                <div><a href={require("../images/Terms of Use.pdf")} rel="noopener noreferrer" target="_blank">Terms of Use</a></div>
+                <div><a href={require("../images/Privacy Policy.pdf")} rel="noopener noreferrer" target="_blank">Privacy Policy</a></div>
             </footer>
         </div>
     )
