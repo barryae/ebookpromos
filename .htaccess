@@ -9,3 +9,8 @@
   RewriteRule . /index.html [L]
 
 </IfModule>
+
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
