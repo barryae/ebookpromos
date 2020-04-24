@@ -25,6 +25,36 @@ a{
   border-bottom: 2px solid black;
 }
 
+.cookies-confirm{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 1.5vh;
+  padding: .25rem;
+  position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);;
+    border: solid 2px rgb(0, 56, 105);
+  color: rgb(0, 56, 105);
+}
+
+.cookies-description{
+  padding: .5rem
+}
+
+.cookies-button{
+  display:block;
+  margin: auto;
+  background-color:rgb(0, 56, 105);
+  color: aliceblue;
+  width: fit-content;
+  padding: .5rem;
+  border: solid 2px rgb(0, 56, 105);
+  cursor: pointer;
+}
+
 textarea{
   padding-bottom: 1rem;
 }
@@ -308,7 +338,7 @@ color: aliceblue;
 .emphasized{
   font-size: 3vh;
   font-style: normal;
-  color: rgb(0, 2, 131);
+  color: rgb(0, 45, 85);
   font-family: 'Merriweather';
   padding: 1rem 10vh;
 }

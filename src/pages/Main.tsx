@@ -1,12 +1,25 @@
 import * as React from "react";
 import Testimonial from "../components/Testimonial"
 import CallToAction from "../components/CallToAction"
+import { useState, useEffect } from 'react';
 
 
-
-let testimonialItems = [{ name: "Michael Alvear", book: "Revenge of the Hatless", url: "https://www.amazon.com/Revenge-Hatless-MAGA-Meets-Karma/dp/1795202858/ref=sr_1_1?dchild=1&keywords=revenge+of+the+hatless&qid=1586538158&sr=8-1", quote: 'eBook Promos produces videos that cut through the clutter to deliver winning messages and stellar sales.' }]
 
 export default function Main() {
+    const initialCookieAuth = Boolean(window.localStorage.getItem('cookieAuth') || false)
+    const [cookiesConfirmed, setCookiesConfirmed] = useState(initialCookieAuth)
+
+    let testimonialItems = [{ name: "Michael Alvear", book: "Revenge of the Hatless", url: "https://www.amazon.com/Revenge-Hatless-MAGA-Meets-Karma/dp/1795202858/ref=sr_1_1?dchild=1&keywords=revenge+of+the+hatless&qid=1586538158&sr=8-1", quote: 'eBook Promos produces videos that cut through the clutter to deliver winning messages and stellar sales.' }]
+
+    function handleClick() {
+        setCookiesConfirmed(true);
+
+    }
+
+    useEffect(() => {
+        window.localStorage.setItem('cookieAuth', String(cookiesConfirmed))
+    })
+
     return (
         <div className="container">
             <img className="paypal-badge" src={require("../images/paypal badge.jpg")} alt="Paypal Badge" />
@@ -129,6 +142,17 @@ export default function Main() {
                 <Testimonial testimonials={testimonialItems} />
                 <CallToAction text="Get your video promo here!" />
             </div>
+            {cookiesConfirmed ? <div></div> :
+                <div className="cookies-confirm">
+                    <div className='cookies-description'>
+                        We use cookies and similar technologies to run this website and to help us understand how you use it.
+                <a href={require("../images/Privacy Policy.pdf")} rel="noopener noreferrer" target="_blank"> See our Privacy Policy here.</a>
+                    </div>
+                    <div className='cookies-button' onClick={handleClick}>
+                        I accept.
+                    </div>
+                </div>
+            }
             <footer>
                 <div>Copyright 2020 eBook Promos</div>
                 <div><a href={require("../images/Terms of Use.pdf")} rel="noopener noreferrer" target="_blank">Terms of Use</a></div>
