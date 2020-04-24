@@ -6,18 +6,17 @@ import { useState, useEffect } from 'react';
 
 
 export default function Main() {
-    const initialCookieAuth = Boolean(window.localStorage.getItem('cookieAuth')) || false
+    const initialCookieAuth = window.localStorage.getItem('cookieAuth') || "false"
     const [cookiesConfirmed, setCookiesConfirmed] = useState(initialCookieAuth)
 
     let testimonialItems = [{ name: "Michael Alvear", book: "Revenge of the Hatless", url: "https://www.amazon.com/Revenge-Hatless-MAGA-Meets-Karma/dp/1795202858/ref=sr_1_1?dchild=1&keywords=revenge+of+the+hatless&qid=1586538158&sr=8-1", quote: 'eBook Promos produces videos that cut through the clutter to deliver winning messages and stellar sales.' }]
 
     function handleClick() {
-        setCookiesConfirmed(true);
-        window.localStorage.setItem('cookieAuth', String(cookiesConfirmed))
+        setCookiesConfirmed("true");
     }
 
     useEffect(() => {
-        // 
+        window.localStorage.setItem('cookieAuth', cookiesConfirmed)
     })
 
     return (
@@ -142,7 +141,7 @@ export default function Main() {
                 <Testimonial testimonials={testimonialItems} />
                 <CallToAction text="Get your video promo here!" />
             </div>
-            {cookiesConfirmed ? <div></div> :
+            {cookiesConfirmed === "true" ? <div></div> :
                 <div className="cookies-confirm">
                     <div className='cookies-description'>
                         We use cookies and similar technologies to run this website and to help us understand how you use it.
