@@ -6,18 +6,18 @@ import { useState, useEffect } from 'react';
 
 
 export default function Main() {
-    const initialCookieAuth = Boolean(window.localStorage.getItem('cookieAuth') || false)
+    const initialCookieAuth = Boolean(window.localStorage.getItem('cookieAuth')) || false
     const [cookiesConfirmed, setCookiesConfirmed] = useState(initialCookieAuth)
 
     let testimonialItems = [{ name: "Michael Alvear", book: "Revenge of the Hatless", url: "https://www.amazon.com/Revenge-Hatless-MAGA-Meets-Karma/dp/1795202858/ref=sr_1_1?dchild=1&keywords=revenge+of+the+hatless&qid=1586538158&sr=8-1", quote: 'eBook Promos produces videos that cut through the clutter to deliver winning messages and stellar sales.' }]
 
     function handleClick() {
         setCookiesConfirmed(true);
-
+        window.localStorage.setItem('cookieAuth', String(cookiesConfirmed))
     }
 
     useEffect(() => {
-        window.localStorage.setItem('cookieAuth', String(cookiesConfirmed))
+        // 
     })
 
     return (
