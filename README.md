@@ -1,8 +1,6 @@
 # ebookpromos
 
-Site for <https://ebookpromos.com>
-
-
+Site for <https://ebookpromos.com> using React, TypeScript, Formspark.io API, and PayPal API. Deployed on cPanel.
 
 ## Issues
 
@@ -15,3 +13,5 @@ Site for <https://ebookpromos.com>
 - TypesScript
 - React Paypal Button V2
 - Formspark.io
+- cPanel
+- CSS Grid
